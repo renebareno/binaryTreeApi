@@ -34,12 +34,13 @@ Un nodo tiene su valor y el valor de sus hijos.
 #Como arrancar
 
 * Descargar el codigo fuente 
-* Ejecutar:
-  * mvn compile  
-  * mvn exec:java
-* Maven inicia un servidor en http:127.0.0.1:4567
+   *git clone https://github.com/renebareno/binaryTreeApi.git
 
-# Uso:
+* Ejecutar:
+  * mvn compile && mvn exec:java
+* Así se inicia un servidor en http:127.0.0.1:4567
+
+# Uso del Api:
 
 Se exponen tres endpoinds
 * post  /newTree
@@ -108,3 +109,6 @@ Es un metodo que se consume por Get. Retorna un json una arreglo de arboles ingr
                     "rightNode": 76
                 },
             ...
+# Unit test
+
+El proyecto incluye unit test basicos sobre el controlador.
